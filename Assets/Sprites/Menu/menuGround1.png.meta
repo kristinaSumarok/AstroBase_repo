@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ef5d7848fc0094f46b70c3c90a91acd6
+guid: 2623f79a4b408e948af908b732f9a44d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -925345978958199149
-    second: meteor_0
+      213: 7603065775066134992
+    second: menuGround1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: meteor_0
+      name: menuGround1_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 7
-        width: 59
-        height: 57
+        x: 0
+        y: 0
+        width: 1920
+        height: 349
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3964cdd1cb28823f0800000000000000
-      internalID: -925345978958199149
+      spriteID: 0d93fb62a04838960800000000000000
+      internalID: 7603065775066134992
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      meteor_0: -925345978958199149
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
