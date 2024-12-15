@@ -1,0 +1,34 @@
+{
+    "name": "GameLogic",
+    "maps": [
+        {
+            "name": "User",
+            "id": "2a11e627-bde4-4986-833f-0cf72de49fd0",
+            "actions": [
+                {
+                    "name": "Submit",
+                    "type": "Button",
+                    "id": "3e23dc1a-a5a3-4dc1-99cd-fc263e08ff01",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ccae83c2-42a9-4404-971b-3a4355da584f",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
