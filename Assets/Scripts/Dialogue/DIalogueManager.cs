@@ -2,14 +2,14 @@ using UnityEngine;
 using TMPro;
 using Ink.Runtime;
 
-public class DialoogueManager: MonoBehaviour
+public class DialogueManager: MonoBehaviour
 {
     [Header("Dialogue UI")]
     [SerializeField] private GameObject panel;
     [SerializeField] private TextMeshProUGUI text;
     private Story currentStory;
     private bool dialogueIsPlaying;
-    private static DialoogueManager instance;
+    private static DialogueManager instance;
 
     private void Awake(){
         if(instance != null){
@@ -18,7 +18,7 @@ public class DialoogueManager: MonoBehaviour
         instance = this;
     }
 
-    public static DialoogueManager GetInstance(){
+    public static DialogueManager GetInstance(){
         return instance;
     }
 
